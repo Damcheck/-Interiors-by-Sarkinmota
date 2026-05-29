@@ -4909,7 +4909,7 @@ blockquote {
   grid-column-gap: 3rem;
   grid-row-gap: 2.5rem;
   grid-template-rows: auto;
-  grid-template-columns: 1.4fr 1fr auto;
+  grid-template-columns: 1.6fr 1.2fr 0.9fr;
   align-items: start;
   margin-bottom: 3rem;
   position: relative;
@@ -4922,12 +4922,14 @@ blockquote {
   grid-column-gap: 3rem;
   grid-row-gap: 1.5rem;
   width: 100%;
+  align-items: start;
 }
 
 .footer-menu-column {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  justify-content: flex-start;
 }
 
 .footer-column-heading {
@@ -5048,6 +5050,10 @@ blockquote {
   align-items: center;
   display: inline-flex;
   transition: border-color .2s ease, transform .2s ease;
+}
+
+.footer-content-block.footer-social-column {
+  align-items: flex-start;
 }
 
 .footer .social-link:hover {
