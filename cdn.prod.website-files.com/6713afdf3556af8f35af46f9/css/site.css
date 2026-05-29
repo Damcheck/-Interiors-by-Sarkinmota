@@ -6785,7 +6785,7 @@ blockquote {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-  height: 1.9rem;
+  height: 2.5rem;
   display: flex;
   overflow: hidden;
 }
@@ -6793,8 +6793,8 @@ blockquote {
 .logo {
   color: #f7f7f7;
   text-transform: uppercase;
-  height: 1.9rem;
-  font-size: 2.2rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1;
   display: block;
@@ -6803,14 +6803,14 @@ blockquote {
 .alternate-logo {
   opacity: .65;
   text-transform: uppercase;
-  height: 1.9rem;
-  font-size: 2.2rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .logo-icon {
-  height: 2.2rem;
+  height: 2.5rem;
 }
 
 .stats-component {
@@ -7114,7 +7114,7 @@ blockquote {
   grid-row-gap: 8px;
   justify-content: center;
   align-items: center;
-  height: 2.4rem;
+  height: 2.8rem;
   display: flex;
 }
 
@@ -7135,7 +7135,7 @@ blockquote {
 }
 
 .preloader-logo {
-  height: 2.4rem;
+  height: 2.8rem;
 }
 
 @media screen and (min-width: 1280px) {
@@ -8882,11 +8882,11 @@ blockquote {
   }
 
   .logo-wrap, .logo, .alternate-logo {
-    height: 1.7rem;
+    height: 2.1rem;
   }
 
   .logo-icon {
-    height: 2rem;
+    height: 2.3rem;
   }
 
   .stats-number {
@@ -8939,7 +8939,7 @@ blockquote {
   }
 
   .preloader-logo-wrapper, .preloader-logo {
-    height: 2rem;
+    height: 2.3rem;
   }
 }
 
