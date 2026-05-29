@@ -4916,6 +4916,41 @@ blockquote {
   z-index: 1;
 }
 
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3rem;
+  grid-row-gap: 1.5rem;
+  width: 100%;
+}
+
+.footer-menu-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-column-heading {
+  color: #d4b350;
+  letter-spacing: 0.18em;
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: .25rem;
+}
+
+.footer-links-grid .link-button {
+  padding: 0;
+}
+
+.footer-links-grid .underline-wrapper {
+  display: none;
+}
+
+.footer-links-grid .link-wrap {
+  gap: 0.2rem;
+}
+
 .footer-content-block {
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
@@ -5024,6 +5059,12 @@ blockquote {
   margin-bottom: 3rem;
   position: relative;
   z-index: 1;
+}
+
+.footer-content-block:first-child {
+  position: absolute;
+  right: 0;
+  bottom: -0.5rem;
 }
 
 .footer-padding {
