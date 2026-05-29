@@ -18,7 +18,7 @@ function UpdateFile($path, $replacements) {
     Write-Host "Updated: $(Split-Path $path -Leaf)"
 }
 
-$base = "c:\Users\Surface pro 6\Downloads\interiora-godmode\Interiors By Sarkinmota"
+$base = "c:\Users\Surface pro 6\Downloads\interiora-godmode"
 
 # ==============================================================
 # UNIVERSAL - testimonial client names & CTA text (all pages)
