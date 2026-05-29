@@ -2,7 +2,7 @@
 # Interiors by Sarkinmota - Site Content Update Script
 # ============================================================
 
-$baseDir = "c:\Users\Surface pro 6\Downloads\interiora-godmode\interiora.webflow.io"
+$baseDir = "c:\Users\Surface pro 6\Downloads\interiora-godmode\Interiors By Sarkinmota"
 $files = Get-ChildItem $baseDir -Filter "*.html" -Recurse |
          Where-Object { $_.FullName -notlike "*\template-info\*" }
 

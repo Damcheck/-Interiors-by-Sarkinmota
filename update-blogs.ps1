@@ -2,7 +2,7 @@
 # Blog Posts Content Update
 # ============================================================
 
-$base = "c:\Users\Surface pro 6\Downloads\interiora-godmode\interiora.webflow.io\blog-posts"
+$base = "c:\Users\Surface pro 6\Downloads\interiora-godmode\Interiors By Sarkinmota\blog-posts"
 
 $oldIntro = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 $oldPara  = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae turpis nec sapien iaculis tempus eu eu dolor. Phasellus vitae consequat erat. Nulla tempus rutrum sollicitudin. Nunc bibendum, ex at molestie ullamcorper, nulla sem fringilla eros, eget dictum nisi nunc eu orci. Morbi dui erat, porttitor at velit vel, lobortis vestibulum erat. Vivamus faucibus iaculis leo, eu tristique elit vehicula fermentum. In hendrerit viverra ex at molestie.'

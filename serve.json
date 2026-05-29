@@ -2,6 +2,6 @@
   "cleanUrls": false,
   "directoryListing": false,
   "rewrites": [
-    { "source": "/", "destination": "/interiora.webflow.io/index.html" }
+    { "source": "/", "destination": "/Interiors By Sarkinmota/index.html" }
   ]
 }
