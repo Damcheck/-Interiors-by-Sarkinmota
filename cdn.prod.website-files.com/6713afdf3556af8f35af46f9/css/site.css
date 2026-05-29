@@ -4911,6 +4911,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 1.6fr 1.2fr 0.9fr;
   align-items: start;
+  justify-content: space-between;
   margin-bottom: 3rem;
   position: relative;
   z-index: 1;
@@ -4962,23 +4963,7 @@ blockquote {
   display: flex;
 }
 
-.footer-component-grid .footer-content-block:nth-child(2)::before {
-  content: "QUICK LINKS";
-  color: #d4b350;
-  letter-spacing: 0.18em;
-  font-size: .9rem;
-  font-weight: 700;
-  margin-bottom: .75rem;
-}
 
-.footer-component-grid .footer-content-block:nth-child(3)::before {
-  content: "CONNECT";
-  color: #d4b350;
-  letter-spacing: 0.18em;
-  font-size: .9rem;
-  font-weight: 700;
-  margin-bottom: .75rem;
-}
 
 .footer {
   background: radial-gradient(circle at 20% 20%, #2b2825 0%, #181614 42%, #12100f 75%);
@@ -5052,13 +5037,13 @@ blockquote {
   transition: border-color .2s ease, transform .2s ease;
 }
 
-.footer-content-block.footer-social-column {
-  align-items: flex-start;
-}
-
 .footer .social-link:hover {
   border-color: #d4b350;
   transform: translateY(-2px);
+}
+
+.footer-content-block.footer-social-column {
+  align-items: flex-start;
 }
 
 .footer-top-content {
@@ -5067,11 +5052,6 @@ blockquote {
   z-index: 1;
 }
 
-.footer-content-block:first-child {
-  position: absolute;
-  right: 0;
-  bottom: -0.5rem;
-}
 
 .footer-padding {
   padding-top: 5rem;
